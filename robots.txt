@@ -1,0 +1,11 @@
+# robots.txt for http://www.smithsonianchannel.ca/
+
+User-agent: *
+Disallow: /shows/la-frock-stars/season-1/
+Disallow: /shows/canada-over-the-edge/season-1/
+Disallow: /shows/canada-1812-forged-fire/season-1/
+Disallow: /shows/the-real-story/season-1/
+Disallow: /shows/aerial-america/season-1/
+Disallow: /shows/terror-in-the-skies/season-1/
+Disallow: /shows/terror-in-the-skies/season-1/
+Disallow: /shows/civil-war-360/season-1/ 

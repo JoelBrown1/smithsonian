@@ -1,0 +1,1858 @@
+/*
+Theme Name: Smithsonian Channel
+Author: Blue Ant Media
+Author URI: http://blueantmedia.ca/
+Description: Smithsonian Channel bulletproof theme
+Version: 1.1
+*/
+@charset "utf-8";
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}	
+
+hr {
+    display: block;
+	border:0;
+    border-top: 2px solid #494949;
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   ========================================================================== */
+html, body {
+	height:100%;width:100%;padding:0px;margin:0px;
+}
+
+body {
+    font: 16px/26px "proxima-nova",sans-serif;
+	background:#000;
+	color:#747474;
+}
+
+a {
+    color: #4C94D5;
+	text-decoration:none;
+}
+
+a:hover{
+    color: #FF7B16;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.page-container{
+	margin: 0 auto;
+	max-width:940px;
+}
+
+/* ===================
+    ALL: Color Theme
+   =================== */
+
+.header-container {
+    border-bottom: 1px solid #323437;
+	margin:0 auto; padding:0;
+	display:table; border-collapse:collapse;
+	width:100%;
+	table-layout:fixed;
+}
+
+.header-container,
+.main aside {
+    background: #1a1c1e;
+}
+
+.header-container .page-container{
+	display:table;
+}
+
+.footer-container{
+	background:#000;
+}
+
+/* ==============
+	Menu
+   ============== */
+
+.logo {
+	display:table-cell;
+	text-align:left;
+	margin:0;
+	position:relative;
+	top:1px;
+	left:-1px;
+	width:180px;
+	height:48px;
+	vertical-align: middle;
+}
+
+.title{
+	vertical-align:middle;
+}
+
+
+nav {
+	display:table-cell;
+	text-align:left;
+	width:69%;
+	height:auto;
+	margin:0;
+	padding:0 0 0 34px;
+	position:relative;
+	top:1px;
+	vertical-align:middle;
+}
+
+nav ul{
+	margin:0 auto;
+	display:table-row;
+}
+
+nav ul li{
+	display:inline-block;
+	height: auto;
+	margin:0;
+	padding:0 26px 0 0;
+}
+
+
+nav a {
+	text-decoration: none;
+    font-weight: bold;
+	text-transform:uppercase;
+	font-size: 14.5px;
+	font-weight: 600;
+    color: #5f5f61;
+}
+
+nav a:visited {
+   color: #5f5f61;
+}
+
+nav a:hover {
+    text-decoration:none;
+	color: #f58025;
+}
+
+nav li:first-child a {
+    margin-left: 0;
+}
+
+nav li:last-child a {
+    margin-right: 0;
+}
+
+nav li.current-page-ancestor a, nav li.current-menu-item a{
+color: #FF7B16;
+}
+
+nav a#pull {
+display: none;
+}
+
+#navigation{
+	display:block;
+}
+
+/* ==============
+	Main
+   ============== */
+
+.main {
+    padding:0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+footer .page-container {
+    color: #494949;
+	font-size:11px;
+    padding: 15px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+	custom styles
+   ========================================================================== */
+
+/* ------------------------------ General Styles ------------------------------ */   
+
+h1{
+	color:#fff;
+	font-size: 32px;
+    line-height: 48px;
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+}
+
+h2 {
+    border-bottom: 1px solid #494949;
+    color: #D1EDF8;
+    font-size: 20px;
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #D1EDF8;
+    font-size: 14px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.page-template-page-video-library-php h4{
+	padding:32px 0 5px 0;
+}
+
+.mainTitle{
+	background:#f58025;
+	width:100%;
+	margin:0;
+	padding:0;
+	height:37px;
+}
+
+.mainTitle h1{
+	font-family: "proxima-nova",sans-serif;
+	font-size:18px;
+	color:#fff;
+	font-weight:normal;
+	text-transform:uppercase;
+	margin:-1px auto 0 auto;
+	padding:0 !important;
+	line-height:40px;
+}
+
+.showMainTitle{
+	background:#59b4de;
+	width:100%;
+	margin:-1px 0 0 0;
+	padding:0;
+	height:37px;
+}
+
+.showMainTitle h1{
+	font-size:18px;
+	color:#fff;
+	font-weight:600;
+	text-transform:uppercase;
+	margin:-2px auto 0 auto;
+	padding:0;
+	line-height:40px;
+}
+
+.page-template-default .mainTitle{
+	margin-bottom:50px;
+}
+
+.page-template-default h1{
+	padding:10px 0;
+}
+
+.page-template-default p{
+	font-size:13px;
+	line-height:20px;
+	color:#aaa9a9;
+	padding:12px 0;
+}
+
+.page-template-default .footer-container p{
+	font-size:11px;
+	color:#494949;
+}
+
+.page-template-default .footer-container .comScore{
+	padding:0 15px 0 0;
+}
+
+.page-template-default h2 {
+	margin: 0 0 20px;
+	font: 18px/20px 'proxima-nova',sans-serif;
+}
+
+/* ------------------------------ Homepage Slider ------------------------------ */
+.rsUni .rsBullets {
+	margin-top:-25px !important;
+}
+
+img.rsImg {
+	position:absolute;
+	z-index:1;
+}
+
+.slide-content-block{
+	position:relative;
+	z-index:9999;
+}
+
+.slide-right{
+	position:absolute;
+	top:100px;
+	margin:0; padding:0;
+	text-align:left;
+	right:10%;
+	left:auto;
+	width:auto !important;
+}
+
+.slide-left{
+	position:absolute;
+	top:100px;
+	margin:0; padding:0;
+	text-align:left;
+	left:10%;
+	right:0%;
+}
+
+.slider-show-time{
+	text-transform: uppercase;
+	font-weight: 600;
+	background: rgba(0, 0, 0, 0.3);
+	color: #fff;
+	font-size: 25px;
+	padding:5px;
+	white-space: nowrap;
+	width: auto;
+	height:auto;
+	display:inline-block;
+}
+
+.slider-show-title{
+	font-size:60px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-bottom:none;
+	line-height: 1.1;
+	margin:5px 0 0 0;
+}
+
+.slider-show-description{
+	font-size: 23px;
+	font-weight: 600;
+	color: #e6e6e6;
+	line-height: 1.1;
+	margin:10px 0;
+}
+
+.learn{
+	background: url("images/learn.png") no-repeat;
+    padding-left: 20px;
+    width: 400px;
+	font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+	color:#fff;
+}
+
+/* ------------------------------ Slider dark classes ------------------------------ */
+
+.slider-dark-text{
+	color: #000;
+}
+
+.slider-dark-bg{
+	background: rgba(0, 0, 0, 0.7);
+	padding:10px;
+	left:50%;
+	top:20px;
+}
+.slider-dark-bg .slider-show-time{
+	font-size: 19px;
+}
+
+.black{ color:#000 !important;}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+/* ------------------------------ Search bar ------------------------------ */
+
+#search-form{
+	display: none;
+	position:absolute;
+	z-index:999;
+	background:#1A1C1E;
+	padding:5px 12px 5px 8px;
+	border:1px solid #323436;
+	margin:18px 0 0 0px;
+	width:100px;
+	right:15%;
+	
+}
+
+.search-box{
+	display:inline-block;
+	margin:0;
+	padding:20px 20px 0 0;
+	vertical-align:middle;
+	width: 20px;
+	height:auto;
+	position:relative;
+}
+
+.search fieldset{
+	border:none;
+	padding:0;
+	margin:0;
+}
+
+.search label{
+	visibility: hidden;
+}
+
+#searchform {
+	background:none;
+	border:none;
+	color:#fff;
+	font-size: 13px;
+	padding:0;
+	margin:0;
+	position:relative;
+}
+
+#search-menu{
+	background: url("images/searchAndSocialicons.png") no-repeat 0 -4px rgba(0, 0, 0, 0);
+	margin: 0;
+  	overflow: hidden;
+  	padding: 0;
+}
+
+#search-menu span{
+	visibility:hidden;
+}
+
+#searchsubmit:hover, #search-menu:hover {
+    background: url("images/searchAndSocialicons.png") no-repeat scroll 0 -34px rgba(0, 0, 0, 0);
+}
+
+#s{ width:100%;}
+
+
+/* ------------------------------ Search Results Page ------------------------------ */
+
+.search-results .mainTitle{ margin-bottom:30px;}
+
+.search-results .post-content{
+	color:#aaa9a9;
+	font-size:13px;
+	padding-bottom:20px;
+	line-height: 20px;
+}
+
+.search-results h2{
+	text-transform:none;
+	border:none;
+	font-size:18px;
+}
+
+/* Pagination */
+
+.pagination{
+	float: right;
+	margin-top: 10px;
+	font-size: 11px;
+}
+
+.pagination li{
+	display: inline;
+	padding:0 3px;
+}
+
+.pagination li a{
+	color:#3e3e3e;
+}
+
+.pagination li a:hover{
+	color:#4C94D5;
+}
+
+.pagination .current{
+	background-color: #ff7b16;
+	border:1px solid #ff7b16;
+	color:#fff;
+	padding:0 3px;
+}
+
+/* ------------------------------ Social Icons ------------------------------ */
+
+.social{
+	display:table-cell;
+	vertical-align: middle;
+}
+
+.social-networks {
+    border-left: 2px solid #323436;
+    height: 4em;
+    margin: 0;
+    padding: 0px;
+	list-style: none;
+	display:table;
+	float:right;
+}
+
+.social-networks a {
+    opacity: 0.5;
+    float: left;
+    overflow: hidden;
+    text-indent: -9999px;
+	height: 26px;
+    width: 20px;
+}
+.social-networks a:hover{
+	opacity: 1;
+}
+
+.social-networks li{
+	padding-left:20px;
+	display:table-cell;
+	vertical-align:middle;
+	height:auto;
+}
+
+.facebook a{
+	background-image:url("images/searchAndSocialicons.png");
+	background-position: -64px 0px;
+}
+
+.facebook a:hover {
+    background-position: -64px -30px;
+	background-image: url("images/searchAndSocialicons.png");
+}
+
+.youtube a{
+	background-image:url(images/searchAndSocialicons.png);
+	background-position: -141px 0px;
+}
+
+.youtube a:hover {
+    background-position: -141px -30px;
+	background-image: url("images/searchAndSocialicons.png");
+}
+
+.twitter a{
+	background-image:url(images/searchAndSocialicons.png);
+	background-position: -102px 0px;
+}
+
+.twitter a:hover {
+    background-position: -102px -30px;
+	background-image: url("images/searchAndSocialicons.png");
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.home .schedule-footer{margin:0 auto;}
+
+.schedule-footer{
+    background: url('images/bg-footer.gif') repeat-y center top;
+	background-position:49% 0;
+    border-top-width: 0;
+    height: 50px;
+    font-size: 11px;
+	margin:50px auto 0 auto;
+	width:100%;
+	display:table;
+}
+
+.scheduleContainer {
+    margin: 0 auto;
+    width: 940px;
+	display: table-row;
+	padding-top:15px;
+}
+
+.schedule-footer .nowShowingTitle{
+    font-weight: 400;
+	font-size:11px;
+	padding:0;
+	margin:0;
+	text-transform:uppercase;
+	width:auto !important;
+}
+
+.schedule-footer ul {
+    padding: 0px;
+    font-size: 11px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.scheduleContainer ul>li{
+	display:inline-block;
+}
+
+.timeStamp{
+    padding-right: 10px;
+	color:#fff;
+	font-weight:600;
+}
+
+.titleStamp{
+    color: #59b4de;
+    text-overflow: ellipsis;
+}
+
+#leftSide {
+	display:table-cell;
+    width: 25%;
+	height:auto;
+	vertical-align:top;
+}
+
+#rightSide {
+    display:table-cell;
+	height:auto;
+	vertical-align:top;
+	width: 62%;
+}
+
+#scheduleLink{
+    display:table-cell;
+	vertical-align:top;
+	text-align:right;
+	width:4%;
+}
+
+#nowShowing, #upNext {
+    color: #D1EDF8;
+}
+
+#nowShowing h4, #upNext h4{
+	position:relative;
+	top:2px;
+}
+
+#nowShowing ul li {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 120px;
+	padding-right:5px;
+}
+
+#upNext ul li {
+    text-overflow: ellipsis;
+    margin-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 135px;
+}
+
+#scheduleLink a{
+    color: #F58025;
+    font-size: 11px;
+    text-transform:uppercase;
+	margin:0; padding:0;
+}
+
+.copyright{
+	float:left;
+	margin:0;
+	padding:0 10px 0 0 !important;
+}
+
+.footer-container a{
+	color:#494949;
+	text-decoration:underline;
+	font-size:11px;
+}
+
+.footer-container a:hover{
+	color: #FF7B16;
+}
+#footer_navigation{
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:left;
+}
+
+#footer_navigation li{
+	display:inline-block;
+	border-left: 1px solid #232323;
+    padding: 0 6px;
+	line-height:10px;
+}
+
+.aboutContact_footer{
+	float:right;
+	margin: 0;
+	padding:0 !important;
+}
+
+.aboutContact_footer a{
+	color:#bababa;
+	text-decoration:none;
+}
+
+.aboutContact_footer a:hover {
+    text-decoration:none;
+	color: #f58025;
+}
+
+.bam-logo, .comScore{ float:left; padding-right:15px;}
+
+/* ==========================================================================
+   Shows Page
+   ========================================================================== */
+   
+#pageBanner{
+	padding-bottom:30px;
+	display:block;
+	width:100%;
+	height:277px;
+}
+
+.show-banner-text {
+	margin: 0 auto;
+	position:relative;
+	width: 100%;
+	left: 0;
+	top: 15%;
+}
+
+.show-banner-text h1 {
+    color: #FFFFFF;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+    width: 470px;
+	padding:30px 0;
+}
+
+.show-banner-text p {
+    color: #E6E6E6;
+    font-size: 18px;
+    width: 300px;
+	line-height:20px;
+}
+
+.page-title{
+	color: #D1EDF8;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 0;
+    text-transform: uppercase;
+	border-bottom:2px solid #494949;
+	margin:18px 0 40px 0;
+	padding-bottom:22px;
+}
+
+.show_col_left{
+	float:left;
+	width:49%;
+	margin:0 15px 15px 0;
+}
+
+.show_col_right{
+	float:right;
+	width:49%;
+	margin-bottom:15px;
+}
+
+.shows-image{
+	clear: both;
+    cursor: pointer;
+	margin:0px;
+    padding: 0;
+    width: 100%;
+	position:relative;
+	z-index:1;
+}
+
+.show-main-title a{
+	background: #59B4DE;
+    color: #FFFFFF;
+    display: inline-table;
+    font-size: 22px;
+    font-weight: 600;
+    padding:5px 0;
+    position:absolute;
+	vertical-align:bottom;
+	text-decoration:none;
+	clear:both;
+	width:100%;
+	bottom:0;
+	text-indent:10px;
+}
+
+.show_excerpt h2 {
+    color: #BABABA;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 23px;
+    padding: 50px 5px 25px 10px;
+	border-bottom:none;
+	text-transform:none;
+}
+
+.image-extras{
+	display:none;
+	position:absolute;
+	bottom:0;
+	z-index:999;
+	background:rgba(28, 28, 28, 0.9);
+	width:100%;
+	height:100%;
+}
+
+.image-extras a {
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+	text-decoration:none;
+}
+
+.image-extras h3 {
+    font-size: 22px;
+    margin: 0 auto;
+    position: absolute;
+	top:0;
+    width: 100%;
+	background: #59B4DE;
+    color: #FFFFFF;
+    display: block;
+    font-weight: 600;
+    padding: 5px 0;
+	text-indent:10px;
+}
+
+.learn-more {
+    background: url("images/learn-more-arrow.png") no-repeat left center;
+    color: #FFFFFF;
+    margin-left: 10px;
+    padding: 40px 15px;
+	font-size:13px;
+	text-transform:uppercase;
+}
+
+/* ==========================================================================
+   Single Shows Page
+   ========================================================================== */
+
+#seasons select {
+      display: none;
+}
+
+#show-pageBanner img{
+	width:100%;
+	max-width:100%;
+	height:100%;
+	left:0;
+	z-index:1;
+}
+
+.show-page-title {
+    background: rgba(28, 28, 28, 0.5);
+    width: 100%;
+	height:95px;
+	margin-top:-95px;
+	padding:0;
+	position:relative;
+	z-index:10;
+}
+
+.show-page-title h1 {
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: normal;
+	position:relative;
+	top:20px;
+	margin:0;
+	padding: 0;
+}
+
+.show-meta{
+	background: #1C1C1C;
+    color: #FFFFFF;
+	padding: 62px 0;
+}
+
+.show-desc{
+	float: left;
+    width: 71%;
+	font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+	border-right: 1px solid #494949;
+	padding: 0 30px 0 0px;
+}
+
+.date-info-box{
+	float: right;
+	padding:0 0 0 30px;
+}
+
+.date-info-box h1 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+	line-height:normal;
+	padding-bottom:15px;
+}
+
+.date-info-box h2{
+	color: #FFFFFF;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+	border:none;
+	padding:0 0 15px 0;
+}
+
+.date-info-box span {
+    color: #FFFFFF;
+    float: left;
+    font-size: 61px;
+    font-weight: lighter;
+    position: relative;
+    top:5px;
+}
+
+.date-info-box p {
+    color: #494949;
+    float: left;
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+    width: 25px;
+	line-height:20px;
+}
+
+.episode-details-wrapper {
+    margin-top: 0;
+	padding: 35px 0 0 0;
+    width: 100%;
+}
+
+.episode-details-wrapper hr { padding:0; margin:0;}
+
+.episode-details-wrapper #tabs ul, .video-thumbs {
+    clear: both;
+    display: inline-block;
+    font-size: 20px;
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.episode-details-wrapper #tabs ul li {
+    display:inline-block;
+	text-indent:10px;
+}
+
+.thumb-images:first-child {
+	margin-left: 0;
+}
+
+.episode-details-wrapper #tabs ul li a {
+    float: left;
+    padding: 0 30px 10px 0;
+    text-decoration: none;
+}
+
+.ui-state-default a {
+    color: #BABABA;
+}
+
+.ui-state-active a {
+    color: #F58025;
+}
+
+#videos {
+    float: left;
+    width: 100%;
+}
+#videos, #episodes {
+    clear: both;
+    padding: 0;
+	display:block;
+}
+
+#episodes-detail {
+    background-color: #1B1B1B;
+    clear: both;
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+
+#episodes-detail ul {
+    color: #494949;
+    text-transform: uppercase;
+}
+
+#episodes-detail ul li{
+	padding:15px 0;
+}
+
+#episodes-detail .seasons-last {
+    border-left: 1px solid #000000;
+    float: right;
+    padding-left: 100px;
+}
+
+#seasons {
+    float: right;
+}
+
+.episode-details-wrapper #seasons ul li{
+	display:block;
+	text-indent:0;
+}
+
+.episode-details-wrapper #seasons ul{
+	position:relative;
+	font-size:18px;
+	text-align:left;
+	right: 68px;
+}
+
+#seasons #ui-id-3{
+	margin-top:25px;
+	font-size:18px;
+}
+
+#episodes-wrapper {
+    float: left;
+    width: 74.4681%;
+}
+
+#episodes .entry-title {
+    color: #FFFFFF;
+    font-size: 30px;
+    padding: 20px 0 10px;
+}
+
+#episodes .entry {
+    border-bottom: 1px solid #2E2E2E;
+    color: #BABABA;
+    font-size: 16px;
+    padding-bottom: 20px;
+	line-height:20px;
+}
+
+#seasons .ui-tabs-nav .ui-state-default a {
+    color: #59B4DE;
+	margin:0;
+	padding:0;
+}
+
+#episodes #episodes-detail .seasons-last{
+	padding-right:53px;
+	text-indent:0;
+}
+
+.episode-details-wrapper #tabs ul li a {
+    float: left;
+    padding: 0 30px 10px 0;
+    text-decoration: none;
+	outline: none;
+}
+
+/* =======================================
+    single show page ribbon styles
+   ======================================= */
+#vidContent{
+	display: none;
+}
+#videos{
+	margin:20px 0 50px 0;
+}
+
+#displayedTitle {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 100;
+    padding: 16px 0;
+}
+
+#displayedDescription{
+	color: #AAA9A9;
+	font-size: 13px;
+    line-height: 20px;
+}
+
+#videos h3 {
+    margin-top: 50px;
+	color: #D1EDF8;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 0;
+    text-transform: uppercase;
+	display:block;
+	-webkit-margin-before: 1.33em;
+	-webkit-margin-after: 1.33em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+#videos hr{
+	margin: 20px 0;
+}
+
+#ribbon-container{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.left-arrow, .right-arrow{
+    background-image: url(images/vidArrows.png);
+    width: 25px;
+    height: 90px;
+    cursor: pointer;
+}
+.left-arrow{
+    float: left;
+    margin-right: 15px;
+    background-position: center left;
+    background-repeat: no-repeat;
+    opacity: .2;
+}
+.right-arrow{
+    background-position: center right;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 15px;
+}
+.showRibbon{
+    width: 100%;
+	padding-bottom:10px;
+}
+
+.showRibbon h3{ padding-top:20px;}
+
+
+.thumb-outter-container{
+    width: 91.7%;
+    height: 145px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.thumb-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.video-thumbs{
+    clear: both;
+    margin: 0 auto;
+}
+#videos .showRibbon .thumb-outter-container .thumb-container .video-thumbs .thumb-images,
+.showRibbon .thumb-outter-container .thumb-container .video-thumbs .thumb-images{
+	display:inline-block;
+    cursor: pointer;
+    width: 160px;
+    margin-left: 15px;
+    float: left;
+    text-indent: 0px;
+}
+#videos .showRibbon .thumb-outter-container .thumb-container .video-thumbs .thumb-images:first-child,
+.showRibbon .thumb-outter-container .thumb-container .video-thumbs .thumb-images:first-child{
+	margin-left: 0px;
+}
+.thumb-images img{
+    width:100%;
+    border-style: none;
+    vertical-align: top;
+    height: auto;
+}
+.thumb-title{
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    line-height: 16px;
+    font-size: 13px;
+}
+
+/* ==========================================================================
+   About & Contact
+   ========================================================================== */
+   
+.about-row {
+    border-bottom: 1px solid #2D2D2D;
+    height: auto;
+    overflow: auto;
+    padding: 30px 0;
+}
+
+.about-col {
+    float: left;
+    font-size: 16px;
+    width: 25%;
+}
+
+.about-row-last {
+    border-bottom: medium none;
+    height: auto;
+    overflow: auto;
+    padding: 30px 0;
+}
+
+.about-row-last .about-col{ height:76px;}
+
+.about-col span {
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+/* =======================================
+    Schedule Page
+   ======================================= */
+.toggleSchedule{
+	display:none;
+}
+
+#dateContainer{
+	max-width: 940px;
+	margin: 0 auto;
+}
+#tDate{
+	background: #1c1c1c;
+	padding: 32px 0px 35px 0;
+	width: 100%;
+	display: inline-block;
+}
+#today{
+	display: inline-block;
+	float: left;
+	width: 35%;
+}
+#day, .playing, #fSchedule{
+	font-size: 20px;
+	color: #d2edf8;
+	margin-bottom:10px;
+}
+#fullDate, #showPlaying .currentShow .titleStamp, .showTime, .showTitle{
+	font-size: 30px;
+	color: #fff;
+	line-height: 30px;
+}
+#showPlaying{
+	float: right;
+	width: 62%;
+}
+.eTitle, #time, #program, .episodeTitle{
+	color: #494949;
+	font-size: 18px;
+	margin: 10px 0px;
+	display: inline-block;
+}
+
+.episodeTitle{
+	line-height:23px;
+	float: left;
+	clear: both;
+}
+
+#time, #program{
+	margin: 4px 0px 0px;
+}
+.eDescription{
+	color: #fff;
+	font-size: 12px;
+}
+
+.page-template-page-schedule-php #main{
+	padding: 0px 10px 0px;
+}
+.scheduleContainer{
+	margin: 0 auto;
+	width: 940px;
+	display: block;
+}
+.calendar-wrapper {
+	height: 480px;
+	/* background: #ededed; */
+	float: left;
+	margin-bottom: 15px;
+	padding: 0px 0;
+	position: relative;
+	overflow: hidden;
+	display:block;
+}
+
+.dmloader {
+	background: url("images/loadingIcon.gif") no-repeat center center #ededed;
+	width: 625px;
+	height: 480px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 120;
+	display: none;
+}
+
+#dateToDisplay {
+	display: none;
+	font: bold 142px Arial, Helvetica, sans-serif;
+	width: 294px;
+	text-align: center;
+	color: #615f5d;
+	position: absolute;
+	top: 35px;
+	left: 15px;
+	z-index: 10;
+}
+
+#calenderSchedule {
+	float: left;
+	clear: left;
+	width: 294px;
+	position: relative;
+	z-index: 11;
+	margin: 30px 0;
+}
+
+.ui-datepicker-header {
+	padding: 0 71px 180px;
+}
+
+.ui-datepicker-prev {
+	float: left;
+	width: 24px;
+	margin: 3px 0px 0px;
+	height: 24px;
+	text-indent: -999px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.ui-datepicker-next {
+	float: right;
+	width: 24px;
+	height: 24px;
+	margin: 3px 0px 0px;
+	text-indent: -999px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.ui-datepicker-title {
+	width: 200px;
+	text-align: center;
+	color: #6d8d24;
+	text-transform: uppercase;
+	font: bold 25px Arial, Helvetica, sans-serif;
+}
+
+#calenderSchedule table {
+	vertical-align: middle !important;
+	float: left;
+	clear: left;
+}
+
+.ui-datepicker-calendar th span {
+	float: left;
+	width: 27px;
+	height: 25px;
+	color: #6d8d24;
+	font: bold 14px/25px Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#scheduleData{
+	float: right;
+	display:block;
+	margin: 48px 0px 0px 0px;
+	width: 62%;
+}
+#scheduleScroller{
+	overflow-x: hidden; /* disable horiontal scrollbar */
+    overflow-y: scroll;
+	width: 100%;
+	max-height: 450px;
+	scrollbar-face-color: #f58025; /* IE Scrollbar Styling */
+	margin-bottom:40px;
+}
+
+.standardTime{
+	text-align:right;
+}
+
+#fSchedule{
+	padding-bottom: 10px; 
+	border-bottom: solid thin #494949;
+}
+#fSDescriptor #time{
+	width: 25%;
+	display: inline-block;
+}
+.scheduleList{
+	list-style: none;
+	margin-top: 20px;
+	padding: 0;
+}
+.showInfo {
+	display:table;
+	border-collapse: collapse;
+	border-bottom: #333 solid thin;
+	width:95%;
+}
+.showTime{
+	display:table-cell;
+	width: 168px;
+	vertical-align:top;
+	padding:25px 0;
+}
+.sInfoContainer{
+	width: 75%;
+	display:table-cell;
+	padding:25px 0;
+}
+.showTitle{
+	width: 90%;
+	display: inline-block;
+	float: left;
+}
+.eArrow{
+	width: 23px;
+	height: 22px;
+	background: transparent url(images/scheduleArrows.png) top left no-repeat;
+	float: right;
+	margin-right:10px;
+	cursor: pointer;
+	}
+.sDescription{
+	display: none;
+	font-size:14px;
+	line-height:18px;
+	color:#AAA9A9;
+}
+/* ================= scroll bar restyling ================= */
+#scheduleScroller::-webkit-scrollbar {
+	width: 16px;
+	height: 16px;
+}
+#scheduleScroller::-webkit-scrollbar:vertical{
+	width: 12px;
+	height: 100%
+}
+#scheduleScroller::-webkit-scrollbar-button{ 
+	height: 0;
+	width: 0;
+}
+#scheduleScroller::-webkit-scrollbar-track{
+	border: 1px solid rgba(46, 46, 47, 1);
+	background-clip: padding-box;
+	background-color: rgba(28, 28, 28, 1);
+}
+#scheduleScroller::-webkit-scrollbar-track-piece  { /* 4 */ }
+#scheduleScroller::-webkit-scrollbar-thumb{ 
+	min-height: 28px;
+	padding-top: 100px;
+	border-left: 2px solid transparent;
+	border-right: 2px solid transparent;
+	border-top: 0 solid transparent;
+	border-bottom: 0 solid transparent;
+	background-clip: padding-box;
+	background-color: rgba(245, 128, 37, 1);
+	-webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.07); }
+#scheduleScroller::-webkit-scrollbar-corner       { /* 6 */ }
+#scheduleScroller::-webkit-resizer                { /* 7 */ }
+
+/* ================= scroll bar restyling ================= */
+/* =================== specific jquery ui styling =================== */
+.ui-datepicker {
+	width: 17em;
+	padding: .2em .2em 0;
+	display: none;
+}
+.ui-datepicker table {
+	width: 100%;
+	font-size: 20px;
+	border-collapse: collapse;
+	margin: 0 0 .4em;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+	background: transparent;
+	border: none;
+}
+.ui-widget-content{
+
+	background: none;
+}
+.ui-datepicker-title{
+	color: #fff;
+}
+.ui-datepicker-calendar th span{
+	color:#494949;
+}
+.ui-datepicker-calendar td a {
+	float: left;
+	text-decoration: none;
+	width: 25px;
+	height: 25px;
+	line-height: 30px;
+	color: #59b4de;
+	/*font: bold 20px/30px Arial, Helvetica, sans-serif;*/
+	text-transform: uppercase;
+	text-align: center;
+}
+.ui-datepicker-calendar td a:hover, .ui-datepicker-calendar td a.ui-state-active {
+	background: #434343;
+	color: #f58025;
+}
+.ui-widget-header .ui-icon{
+	background-image: url(images/SmithsonianSpriteSheet.png);
+	background-repeat: no-repeat;
+}
+.ui-widget-header .ui-datepicker-prev .ui-icon{
+	background-position: top left;
+}
+.ui-widget-header .ui-datepicker-next .ui-icon{
+	background-position: top right;
+}
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -15px;
+	top: 50%;
+	margin-top: -14px;
+	width: 28px;
+	height: 28px;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+	position: absolute;
+	top: 9px;
+	width: 1.8em;
+	height: 1.8em;
+}
+
+/* ==========================================================================
+   Channel Finder Page
+   ========================================================================== */
+.province{
+	display:none;
+}
+
+.package-details{
+	display:block;
+}
+
+#province-nav{
+	background:#1c1c1c;
+	border-bottom:2px solid #222121;
+	margin-bottom:50px;
+	padding:40px 0;
+}
+	
+#province-nav-wrapper{
+	width:940px;
+	margin:0 auto;
+	padding:0;
+	font-size:20px;
+	font-style:normal;
+	font-weight:300px;
+	line-height:36px;
+}
+
+#province-nav-wrapper h2, #channel-finder-wrapper h2{
+	border:none;
+	padding:0;
+	margin:0;
+	font-size:20px;
+}
+
+#channel-finder-wrapper h2{
+	margin-bottom:20px;
+}
+
+#channel-finder-wrapper{
+	width:940px;
+	margin:-20px auto 0 auto;
+	padding:0;
+}
+
+.channel-headings{
+	background:#1c1c1c;
+	border-top:2px solid #494949;
+	font-size:16px;
+	color:#494949;
+	text-transform:uppercase;
+	margin:0;
+	height:62px;
+}
+
+.channel-headings .channel-row{
+	padding:22px 0;
+}
+
+.channel-headings .channel-row .channel-col, .channel-headings .channel-row .channel-last{
+	color:#494949;
+}
+
+.provider-logo, .provider-title{ padding-left:10px;}
+
+.channel-col{
+    float: left;
+    width: 25%;
+	color:#AAA9A9;
+}
+
+.channel-last{
+    float: right;
+    width: 23%;
+	font-size:18px;
+	color:#fff;
+	text-transform:uppercase;
+}
+.channel-row{
+    height: auto;
+    overflow: auto;
+	margin:0;
+	padding:28px 0;
+	border-top:1px solid #2f2f2f;
+	font-size:16px;
+	line-height:18px;
+}
+
+.channel-last-row{
+	margin-bottom:120px;
+}
+
+.channel-last span{
+	font-size:14px;
+	color:#494949;
+}
+
+/* ==========================================================================
+   Sitemap page
+   ========================================================================== */
+
+.page-template-page-sitemap-php .mainTitle{
+	margin-bottom:50px;
+}
+
+.sitemap-list{
+	padding:0px;
+}
+
+.sitemap-list a{color:#D1EDF8; text-transform:uppercase; border-bottom:1px solid #484848; display:block; margin-bottom:35px; padding-bottom:10px; clear:both;}
+
+.sitemap-list li ul a{color:#4C94D5; text-transform:none; border:none; display:inline-block; float:left; width:33%; margin-bottom:0px; padding-bottom:28px; clear:none;}
+
+/* ===================== U.S redirect css rules ======================= */
+
+	#redirect{  display:none; margin:0; padding:0; background:#083346; width:100%; height:auto; padding:20px 0;}
+	#redirect p{ width:940px; margin:0 auto; background:url(images/usFlag.jpg) no-repeat 29em 0;}
+
+/* ===================== END U.S redirect css rules ======================= */
+
+/* ===================== Brightcove responsive video player ======================= */
+.BCLvideoWrapper { max-width:940px;}
+.BCLresponsive { position:relative;padding-bottom:56.24%; }
+.BrightcoveExperience {position:absolute;top:0px;left:0px;width:100%;height:100%;}
+
+
+/* ==========================================================================
+   END Author's custom styles
+   ========================================================================== */
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

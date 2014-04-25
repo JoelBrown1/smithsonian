@@ -1,0 +1,1235 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media (max-width:1024px) {
+	
+.page-container{
+	width:100%;
+	margin:0 auto;
+}
+
+.show-banner-text h1 {
+	padding: 12px 0;
+}
+
+
+#episodes-detail .seasons-last {padding-left: 99px;}
+
+}
+
+@media (max-width:980px) {
+	
+.page-container{
+	width:97%;
+}
+.schedule-footer .scheduleContainer{ padding-top:10px;}
+
+.scheduleContainer{
+	width: 97%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.slider-dark-bg{
+	top:8%;
+	left:40%;
+}
+
+nav ul li {
+	padding: 0 15px 0 0;
+}
+
+/* ------------------------------ Homepage Slider ------------------------------ */
+
+.slider-show-time {
+	font-size: 18px;
+}
+
+.slider-show-title {
+	font-size: 38px;
+}
+
+slider-show-description {
+	font-size: 18px;
+}
+
+/* ============
+	Footer
+	============ */
+
+.schedule-footer #rightSide .nowShowingTitle, .schedule-footer #leftSide .nowShowingTitle{ clear:both; display:block;}
+.schedule-footer {
+	background-position:51% 0;
+	background-attachment:fixed;
+}
+
+#leftSide {width: 19%;}
+
+
+
+	/* ============
+	Shows Index page
+	============ */
+
+.show-banner-text h1 {
+	padding: 10px 0;
+}
+
+.image-extras{width:100%; height:100%;}
+
+.show_col_right img, .show_col_left img {
+	width: 100%;
+	height: auto;
+}
+
+.show-main-title a{ display:inline-block;}
+
+/* ============
+	Shows Index page
+	============ */
+#dateContainer {
+	max-width: 97%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+	/* ============
+		Channel Finder page
+	   ============ */
+	   
+	#channel-finder-wrapper, #province-nav-wrapper{
+		width:100%;
+		margin:0 auto;
+	}
+	
+	#province-nav .channel-col a {font-size: 18px;}
+	
+	.package{ font-size:14px; word-wrap:break-word;}
+
+@media (max-width: 800px) {
+	
+.page-container{
+	width:95%;
+	padding:0px;
+}
+
+.title img{
+	width:150px;
+	max-width:150px;
+}
+
+.show_col_left img, .show_col_right img{
+	width: 100%;
+	max-width: 100%;
+	height:auto;
+	display: block;
+}
+
+	/* ============
+		Header
+	   ============ */
+nav {
+	width: 72%;
+}
+	
+nav ul li{
+	padding:0 12px 0 0;
+}
+	   
+	/* ============
+		Footer
+	   ============ */
+	   
+	.footer-container{
+		margin:0;
+	}
+
+	.schedule-footer{
+	    border-top-width: 0;
+	    height:35px;
+	    font-size: 11px;
+		width:100%;
+		display:table;
+		background: #1A1C1E;
+	}
+	
+	.schedule-footer .scheduleContainer{
+		width: 97%;
+		margin: 0 3%;
+		padding:0px;
+	}
+
+	#scheduleLink{
+		display:none;
+	}
+
+	#leftSide {
+	   width: 5%;
+	   border-right:1px solid #000; height:4.5em; margin:0; padding:0;
+	}
+
+	#rightSide {
+	   width: 47%;
+	   padding-left:20px;
+	}
+
+	#nowShowing, #upNext{ padding:5px 0;}
+	
+	#upNext ul li {width: 160px;}
+
+
+/* ------------------------------ Homepage Slider ------------------------------ */
+
+.slide-right{
+	top:100px;
+}
+
+.slide-left{
+	left:8%;
+	right:0%;
+}
+
+.slider-show-time{
+	font-size: 18px;
+	padding:0 5px;
+}
+
+.slider-show-title{
+	font-size:36px;
+}
+
+.slider-show-description{
+	font-size: 16px;
+}
+/* ------------------------------ Slider dark classes ------------------------------ */
+
+.slider-dark-bg{
+	top:50px;
+	padding:15px;
+}
+
+.slider-dark-bg .slider-show-time{
+	font-size: 16px;
+}
+
+	/* ============
+		Shows Banner
+	   ============ */
+
+	.show-banner-text h1 {
+	    font-size: 36px;
+	}
+
+	.show-banner-text p {
+	    font-size: 14px;
+	}
+
+	/* ============
+		Show Index page
+	   ============ */
+	   
+	#pageBanner{
+		height:200px;
+	}
+
+	.show_col_left, .show_col_right  {
+		width:48.5%;
+		height:auto;
+	}
+	
+	.show-main-title a, .image-extras h3 {
+	    font-size: 18px;
+	}
+	
+	.image-extras{
+		width:100%;
+		overflow: hidden;
+	}
+
+	.image-extras h2 {
+		font-size:15px;
+		line-height:normal;
+		padding: 50px 5px 25px 15px;
+	}
+
+	/* ============
+		Single Show page
+	   ============ */
+
+	.show-desc{
+		width: 69%;
+		font-size: 17px;
+	}
+	
+	.date-info-box p{
+		top:0;
+	}
+
+	#episodes-wrapper {
+		width: 69%;
+	}
+
+	#episodes .entry-title {
+		font-size: 26px;
+	}
+
+	#episodes .entry {
+		font-size: 14px;
+	}
+	
+	#episodes-detail .seasons-last {
+    	padding-left: 50px;
+	}
+
+	/* ============
+	ribbons on the showpage
+	   ============ */
+	.thumb-outter-container {
+		width: 89.5%;
+	}
+
+	
+	/* ============
+		Schedule page
+	   ============ */
+#tDate {display: inline-table;}
+
+.toggleSchedule{
+	display:block;
+	cursor:pointer;
+	border:none;
+}
+
+.calender-icon{padding-left:10px;}
+
+#today{
+   display:none;
+}
+
+#showPlaying{
+   width:90%;
+   margin:0 3%;
+}
+
+
+.scheduleContainer{
+	width:100%;
+	margin:0;
+	overflow:hidden;
+}
+
+.calendar-wrapper{
+	display: none;
+	position:relative;
+	z-index:999;
+	background:#1A1C1E;
+	padding:10px 0;
+	margin:0 auto 20px auto;
+	height:290px;
+	width:100%;
+	border-top: 2px solid #494949;
+}
+
+#calenderSchedule {
+	clear: both;
+	z-index: 11;
+	margin: 0 auto;
+	float: none;
+}
+
+#scheduleData{
+	width:90%;
+	margin-left:5%;
+	float:none;
+}
+
+#showPlaying {float: none;}
+.showTitle {font-size: 26px;}
+
+	/* ============
+		Channel Finder page
+	   ============ */
+	   
+	#channel-finder-wrapper, #province-nav-wrapper{
+		margin:0 auto;
+	}
+	
+	.channel-row, .channel-last {
+		font-size: 14px;
+	}
+	   
+	#province-nav-wrapper .channel-col{
+		width:33%;
+	}
+
+}
+
+@media (max-width: 768px){
+	
+	.title img{
+		width:120px;
+		position:relative;
+		top:-5px;
+	}
+
+	/* ============
+		Header
+	   ============ */
+
+nav {
+	display:table-cell;
+	text-align:left;
+	width:71%;
+	margin:0;
+	padding:0;
+	position:relative;
+	top:0px;
+	left:15px;
+}
+nav ul li{
+	padding:0 7px 0 0;
+}
+
+.social-networks li{
+	padding-left:12px;
+}
+
+	/* ============
+		Footer
+	   ============ */
+
+	.scheduleContainer ul {
+		margin-left:0;
+	}
+	
+	#nowShowing ul li {
+    	width: 85px;
+	}
+	
+	#upNext ul li {
+		width: 120px;
+	}
+
+/* ------------------------------ Homepage Slider ------------------------------ */
+
+.slide-right{
+	top:70px;
+}
+
+.slide-left{
+	top:70px;
+}
+.slider-show-time {
+	font-size: 16px;
+}
+
+.slider-show-title {
+	font-size: 30px;
+}
+
+slider-show-description {
+	font-size: 16px;
+}
+
+.slider-dark-bg {
+	top:10px;
+}
+
+.slider-dark-bg .slider-show-time{
+	font-size: 11px;
+}
+
+	/* ============
+		Shows Index page
+	   ============ */
+	
+	#pageBanner{
+		height:180px;
+	}
+	
+	.show-banner-text{top:14%;}
+	
+	.image-extras h2 {
+		padding:50px 5px 0 5px;
+	}
+	
+	/* ============
+		Single Shows page
+	   ============ */
+	   
+	.show-meta{
+		padding:40px 0;
+	}
+	   
+	.show-desc {
+		font-size:15px;
+		line-height:24px;
+		width: 63%;
+	}
+	
+	.show-page-title h1{
+		font-size: 48px;
+	}
+	
+	#displayedTitle{ font-size:26px;}
+	
+	#episodes-detail .seasons-last {
+    	padding-left: 56px;
+	}
+
+	/* ============
+		ribbons on the showpage
+	   ============ */
+	.thumb-outter-container{
+		width: 89%;
+	}
+	
+	/* ============
+		Channel Finder page
+	   ============ */
+	
+	.channel-row, .channel-last {
+		font-size: 13px;
+	}
+}
+
+
+
+@media (max-width:640px) {
+		
+.page-container{
+	width:90%;
+	margin:0 5%;
+}
+
+.title img{
+	width:130px;
+}
+
+/* ========================
+		Menu
+======================== */
+
+#navigation{
+	display: none;
+	position:absolute;
+	z-index:999;
+	background:#1A1C1E;
+	padding:5px 0;
+	width:140px;
+	margin-left: -10px;
+	text-indent: 5px;
+}
+	
+nav {
+	border-bottom: 0;
+	height:auto;
+	top:10px;
+	z-index:1;
+}
+
+nav ul {
+	display: none;
+	height: auto;
+	padding-bottom:20px;
+}
+
+nav ul li{
+	display:block;
+	padding: 5px 0;
+	border-top: 1px solid #323436;
+	width: 100%;
+}
+
+nav a {
+	margin: 0;
+	padding: 0;
+	display:block;
+}
+
+nav a#pull {
+	display: block;
+	background-color:#1c1c1c;
+	width: 15%;
+	overflow:visible;
+	position: relative;
+	z-index:9999;
+	text-align:center;
+	outline:none;
+}
+	nav a#pull:after {
+		content:"";
+		background: url('../images/nav-icon.png') no-repeat;
+		width: 100%;
+		height: 30px;
+		display: inline-block;
+		position:relative;
+		right: 0px;
+		top: 0px;
+	}
+
+	/* ============
+		Footer
+	   ============ */
+	   
+	.schedule-footer .scheduleContainer { width:95%; margin: 0 5%;}
+	
+	.schedule-footer, .schedule-footer ul li{
+		font-size:10px;
+	}
+	
+	
+	#leftSide {
+		width: 10%;
+	}
+	
+	#rightSide {
+		width: 70%;
+	}
+	
+	#upNext ul li { width: 100px;}
+
+	.copyright{
+		font-size:12px;
+		clear:both;
+		width:100%;
+	}
+	
+	#footer_navigation li {
+		border-left:none;
+		border-right: 1px solid #232323;
+	}
+	
+
+/* ------------------------------ Homepage Slider ------------------------------ */
+
+.slide-right{
+	top:70px;
+}
+
+.slide-left{
+	top:70px;
+	left:5%;
+	right:0%;
+}
+
+.slider-show-time{
+	font-size: 12px;
+	padding:0 7px;
+}
+
+.slider-show-title{
+	font-size:22px;
+}
+
+.slider-show-description{
+	display:none;
+}
+/* ------------------------------ Slider dark classes ------------------------------ */
+
+.slider-dark-bg{
+	padding:10px;
+	left:30%;
+	top:40px;
+}
+
+	/* ============
+		Channel Finder page
+	   ============ */
+
+	.channel-row .channel-col{
+		width:32%;
+		float:left;
+		white-space:nowrap;
+		font-size:13px;
+		overflow:hidden;
+	}
+	
+	.channel-row .channel-last{
+		width:25%;
+		white-space:nowrap;
+		font-size:13px;
+		overflow:hidden;
+	}
+	
+	#channel-finder-wrapper .channel-last span, .channel-col a {
+		font-size:12px;
+	}
+	
+	.package-title, .package{
+		display:none;
+	}
+
+	.channel-col img{
+		width:65%;
+		height:auto;
+		display:block;
+	}
+	
+	#province-nav .channel-col a {
+		font-size: 15px;
+	}
+	
+	.package-details{ display:block;}
+	
+	.channel-headings{ height:50px;}
+	.channel-headings .channel-row {padding: 18px 0;}
+
+	/* ============
+		Single Shows page
+	   ============ */
+	.show-meta {
+		padding: 30px 0;
+	}
+  
+	.show-desc {
+		float: left;
+		width: 100%;
+		font-size:15px;
+		line-height:24px;
+		clear:both;
+		padding-bottom:10px;
+	}
+	
+	.date-info-box h1 {
+		font-size:16px;
+	}
+	
+	.date-info-box span {
+		font-size:50px;
+	}
+	   
+	.date-info-box {
+		float: none;
+		clear:both;
+		width: 100%;
+		border:none;
+		padding:10px 0 0 0;
+		border-top: 1px solid #494949;
+	}
+	
+	.show-page-title {
+		display:none;
+	}
+	
+	.date-info-box p {
+		float: left;
+		width: 13px;
+	}
+	
+	#displayedTitle{ font-size:20px;}
+	
+	#episodes .entry {font-size: 13px; line-height:1.5;}
+	
+	#episodes-detail .seasons-last {
+		padding: 0 55px 0 30px;
+	}
+
+#seasons {
+	width: 100%;
+	clear: both;
+}
+	
+#seasons .ui-tabs-nav .ui-state-default a {
+	padding-right:10px;
+}
+
+#episodes-wrapper {
+	width: 100%;
+}
+
+#episodes #episodes-detail .seasons-last{ display:none;}
+
+.episode-details-wrapper #seasons ul{
+	right:0;
+}
+.episode-details-wrapper #seasons ul li{
+	display:inline-block;
+}
+
+
+	/* ============
+		Shows Banner
+	   ============ */
+	 #pageBanner{
+		height:150px;
+	}
+	
+	.image-extras h2 {
+		font-size:11.5px;
+		padding: 38px 5px 0px 10px;
+	}
+	
+	.image-extras h3 {padding:0;}
+	
+	.show_col_left, .show_col_right  {
+		width:48.2%;
+		height:auto;
+	}
+	
+	.show-main-title a, .image-extras h3 {
+	    font-size: 14px;
+		padding:0;
+	}
+	
+	.learn-more {
+		visibility:hidden;
+	}
+	
+	/* ============
+		ribbons on the showpage
+	   ============ */
+	.thumb-outter-container{
+		width: 86%;
+	}
+	
+	
+	/* ============
+		Schedule Page
+	   ============ */
+	.showTitle, .showTime{
+		font-size:20px;
+	}
+	
+	.episodeTitle{
+		font-size:14px;
+	}
+	
+	.showTitle {width: 89%;}
+	
+	/* ============
+		About Page
+	   ============ */
+	   .about-row {padding: 15px 0;}
+	   .about-col{ clear:both; width:100%; font-size:14px;}
+	   .about-row-last .about-col { height:auto; font-size:14px;}
+	   
+/* ==========================================================================
+   Sitemap page
+   ========================================================================== */
+.sitemap-list li ul a{color:#4C94D5; text-transform:none; border:none; display:block; float:left; width:100%; margin-bottom:0px; padding-bottom:10px; clear:both;}
+
+}
+
+@media (max-width: 480px) {
+
+/* ============
+	Header
+   ============ */
+
+nav {
+	width: 100%;
+	z-index:999;
+	
+}
+
+nav a#pull{
+	width:25px;
+}
+
+.social {
+	width: 120px;
+	display:table-cell;
+	height: auto;
+}
+
+.social-networks li{
+	margin-top:15px; 
+	margin-left: 6px;
+	display:table-cell;
+}
+
+.page-title, .page-template-default h2{display:none;}
+
+.page-template-page-shows-php .mainTitle, .page-template-page-video-library-php .mainTitle, .page-template-page-channel-finder-php .mainTitle{ margin-bottom:20px;}
+
+.mainTitle h1{ font-size:16px;}
+
+/* ====================== video ribbons ================= */
+	.left-arrow, .right-arrow{
+		display: none;
+	}
+	.thumb-images{
+		margin-bottom: 15px;
+	}
+	.thumb-images:nth-child(4n){
+		margin-left: 0px;
+	}
+
+
+/* ====================== video ribbons ================= */
+
+/* ========================
+	Footer
+======================== */	
+
+.schedule-footer .scheduleContainer {
+	padding: 0px;
+	margin:0;
+	width:100%;
+}
+
+.scheduleContainer ul{
+	display:block;
+	clear:both;
+}
+
+.schedule-footer {
+    background: #1A1C1E;
+}
+
+.schedule-footer .scheduleContainer ul { margin:0 3%;}
+
+#leftSide, #rightSide, .copyright, #footer_navigation, .aboutContact_footer{
+	display:block;
+	clear:both;
+	float:left;
+	width:100%;
+}
+
+#rightSide{ padding:0;}
+
+#footer_navigation li {
+	border:none;
+}
+
+#nowShowing, #upNext{ margin:0 3%; border:none;}
+
+#upNext ul li, #nowShowing ul li {
+	width: 100%;
+	padding-top:0;
+}
+
+#leftSide{ background:#252525; margin:0; width:100%; height:auto; float:none; position:relative;}
+
+.network-cell-left, .network-cell-right{
+	display:block;
+	text-align:left;
+	clear:both;
+	float:left;
+	padding:12px 0;
+}
+
+.network-cell-right img{ height:13px !important;}
+
+/* ------------------------------ Homepage Slider ------------------------------ */
+
+.slide-right{
+	top:30px;
+}
+
+.slide-left{
+	top:20px;
+	left:5%;
+	right:0%;
+}
+
+.slider-show-time{
+	font-size: 12px;
+}
+
+.slider-show-title{
+	font-size:22px;
+}
+
+.slider-show-description, .learn{
+	display:none;
+}
+
+/* ------------------------------ Slider dark classes ------------------------------ */
+
+.slider-dark-bg{
+	padding:10px;
+	left:5%;
+	top:3%;
+}
+
+	/* ============
+	Shows Index page
+	============ */
+
+#pageBanner{
+	display:none;
+}
+
+.show_col_left, .show_col_right {
+	width: 100%;
+	height:auto;
+	clear:both;
+}
+
+.show-main-title a {
+	padding:5px 0;
+}
+
+.show_excerpt h2 {
+	color: #BABABA;
+	font-size: 90%;
+	line-height: 1.3;
+	padding: 50px 5px 5px 10px;
+}
+
+.learn-more {
+	margin-left: 10px;
+	padding: 40px 15px;
+	font-size: 12px;
+	visibility:visible;
+}
+
+	/* ============
+		Single Shows page
+	============ */ 
+	
+	.date-info-box p {
+		float: left;
+		width: 13px;
+	}
+	
+	#displayedTitle{ font-size:16px; padding:8px 0;}
+	
+	#episodes-detail .seasons-last {
+		padding: 0 40px 0 30px;
+	}
+	
+	#episodes-detail ul li{
+		font-size:16px;
+		padding:5px 0;
+	}
+	
+	#seasons #ui-id-3 {
+		font-size: 13px;
+		margin-top: 10px;
+	}
+	
+	.episode-details-wrapper #tabs ul li a { font-size:16px;}
+
+/* ============
+	Channel Finder page
+   ============ */
+
+#channel-finder-wrapper .province{
+	display:block;
+	cursor:pointer;
+	border-top: 1px solid #494949;
+	padding:12px 0;
+	margin:0;
+}
+
+.package-details{
+	display:none;
+}
+
+#channel-finder-wrapper h2{
+	display:none;
+}
+
+#province-nav{
+	display:none;
+}
+
+.contact, .channels{
+	font-size:14px;
+}
+
+.channel-row .channel-col {
+	width: 35%;
+	overflow: visible;
+}
+
+.channel-col{overflow:visible; z-index:10;}
+.channel-last{ overflow:hidden; padding-right:0px; z-index:1;}
+
+.provider-logo, .provider-title{ padding-left:10px;}
+
+.channel-last span{ display:none;}
+
+/* ========================
+		Schedule Page
+	======================== */
+	   
+#calenderSchedule {
+	left:0;
+}
+
+.calendar-wrapper{
+	top:70%;
+}
+
+#showPlaying .currentShow .titleStamp, .showTime, .showTitle {
+	font-size:16px;
+}
+
+.calendar-wrapper{
+	top:65.5%;
+}
+.eArrow{ display:none;}
+.sDescription{ display:block; clear:both;}
+
+#scheduleScroller, .main .scheduleContainer {overflow:visible; max-height:100%;}
+
+
+}
+
+@media (max-width: 320px) {
+	
+	/* ============
+		Header
+	============ */
+
+.title img {
+	width: 90px;
+}
+
+/* ============
+		Footer
+	============ */
+	
+	.network-cell-right img{ height:12px !important;}
+	
+/* ------------------------------ Homepage Slider ------------------------------ */
+
+.slide-right{
+	top:30px;
+}
+
+.slide-left{
+	top:20px;
+	left:5%;
+	right:0%;
+}
+
+.slider-show-time{
+	font-size: 12px;
+	padding:2px;
+}
+
+.slider-show-title{
+	font-size:16px;
+}
+
+/* ------------------------------ Slider dark classes ------------------------------ */
+
+.slider-dark-bg{
+	left:0;
+	top:0;
+}
+
+.slider-dark-bg .slider-show-time {
+	font-size: 10px;
+	padding:0;
+}
+
+
+	/* ============
+		Schedule page
+	============ */
+	
+#calenderSchedule {
+	left:5%;
+}
+	
+	.eDescription{
+		line-height:18px;
+	}
+	
+	.showTitle{
+		line-height:24px;
+	}
+	
+	/* ============
+		Shows page
+	============ */
+	
+	.show-main-title a {
+		padding:0;
+	}
+	
+	
+	.show_excerpt h2 {
+		font-size: 80%;
+	}
+
+	.learn-more {
+		visibility:hidden;
+	}
+	
+
+	/* ============
+		Single Shows page
+	============ */
+	
+	.date-info-box p {
+		float: left;
+		width: 10px;
+	}
+	
+	#displayedTitle{ font-size:14px;}
+	
+	#episodes-detail .seasons-last {
+		padding: 0 5px 0 30px;
+	}
+	
+	#episodes .entry-title {
+		font-size: 18px;
+	}
+	
+	#episodes .entry {
+		font-size: 12px;
+	}
+	
+	#episodes-detail ul li{
+		font-size:14px;
+	}
+	
+	#seasons #ui-id-3 {
+		font-size: 11px;
+	}
+	
+	/* ============
+		Channel Finder page
+	============ */
+	
+	.province a {
+		font-size:16px;
+	}
+
+	.channel-row .channel-col{
+		width:34%;
+		float:left;
+		white-space:nowrap;
+		font-size:13px;
+		overflow:hidden;
+	}
+	
+	.channel-row .channel-last{
+		width:28%;
+		float:right;
+		white-space:nowrap;
+		font-size:13px;
+		overflow:hidden;
+	}
+	
+	.channel-last span{ display:none;}
+	
+	.provider-logo, .provider-title{ padding-left:0px;}
+		
+	/* ============
+		Ribbon styles
+	============ */
+	.left-arrow, .right-arrow{
+		display: none;
+	}
+	.thumb-images{
+		margin-bottom: 15px;
+	}
+	.thumb-images:nth-child(3n){
+		margin-left: 0px;
+	}
+	.thumb-images:nth-child(4n){
+		margin-left: 15px;
+	}
+
+}
